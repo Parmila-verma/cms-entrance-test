@@ -150,6 +150,31 @@ background-color: transparent;
 .section-5 .card{
     border-radius: 0%;
 }
+
+/* section-6 */
+.input{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+}
+
+.form-message{
+    resize: none !important;
+}
+
+.submit-btn{
+    padding: 10px 40px;
+    border: 1px solid rgba(9, 8, 8, 1);
+    background-color: transparent;
+}
+
+.section-6{
+    margin-bottom: 120px;
+}
+
+/* footer */
+.footer{
+    /* background-color: rgba(8,8,8); */
+}
 @media (min-width:992px) {
     .nav-logo{
         left: 50%;
