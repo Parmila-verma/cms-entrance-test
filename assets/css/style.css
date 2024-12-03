@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.Plus-Jakarta-Sans{
+font-family: "Plus Jakarta Sans";
+}
+
+.pointer{
+    cursor: pointer;
+}
+.grey{
+    color: rgba(82,82,82);
+}
+
+.ms-600{
+    margin-left: 600px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+  nav li {
+    display: inline-block;
+}
+
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ nav li.nav-item>a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar {
+    --bs-navbar-padding-y: 1rem !important;
+    --bs-navbar-padding-x: 1rem !important;
+}
+
+button[aria-expanded="false"] span.lines {
+    display: block !important;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUAAAD////CwsJhYWFSUlKvr698fHxCQkJISEiUlJSgoKD09PTOzs4EBATx8fH8/PyGhoYuLi7h4eG2trZubm7o6OhaWlqpqamNjY2YmJhWVlY7OzvGxsY0NDRgYGDZ2dkVFRVqamoXFxcjIyOKMNFXAAADYklEQVR4nO2d227bMBBE6bstl3Lka53Gbdr+/z9WdGy0ffAusYHBHWoOkKeEwB6ToixyxITT19W/NP+zWsH/NnShdhalC3g6wzCMpYt4KsPow7qhIT40xIeG+NAQn2XpAp4ODfGhIT40xIeG+NAQHxriQ0N86n8+pCE+NMSHhvjQEB8a4oNvqOUs8A01aHjcjV0zVw0fPh/GnrBfj9xz7q/EKFyMj5+A+0avpavX2YxGL6k3bIbdtnT9Kpv0MxUnVGGUhnnp+jPZ2UZp32hXuvRMWuN1GMKX0qVnshYcaIgBDWnoHxrS0D9DN5SeD2noBRrS0D80pKF/aEhD/9CQhv4ZuqG05o1jKO0DSzszlRtC9aHEY8MQmtKlZ7I17z3tS5eeiXF3LfGW2m9KC2i03yQHaaaJoVv3gq4NU3UTOVMjXYchdDP3UYW3V2tSoW+UmnXLqWNel5dUphiLEvpQaemFVKR5pqkCGuJDQ3z09KXrCVWaRG8ohlEMxRUn54YmG3q2u/PJFHS3b2aeaebqZSb/wfcfpb92qhxWdsMYJqXLz6KR55vHhjFc/CdoE+ujqCiNUqAErakPQ5iVLj2Tta0P+zb+p5kP5NXE+te8aYgADWs3rD+bSEMEaEhD/9CQhv6hIQ39Q0Ma+mfoz4c0RICGgzWMt+AeANY1b6gErWnfIlaSoJVG6cR18PIvZ/MojRibT+3CNkqvrQ6lq1e4H6IkId0tYrjMWt8jdbMZH2VB8TpMvE/mntl3H7Ua9/GzQlWluZZommmun4t3wZud2If1ZxNpiA8N8RHft5APlXSBXqB4uqd7v4R2U5P7MHQvp9IhWZmV/LVbMrxKzv3nL9tG9FPezvvp/u3D9HbeOdhOaO1ZtKUF8pgY+xApQWvrwwiUoLX1IdRa26ANB7zmTUNH0JCG/qEhDf1DQxr6h4Y09M/Qs4k0RICGNPQPDWnoHxo+IN4Nne+vjT6zqo+SoD2YzxHGOGLomqA17q69j0vXnsX2YjWM4RfEJvBUDsUoh4GdvKeE2/Fv2UA9VfAy8Y1+KiJ8glZFO1XQ+VG7GSlftQ+9C6rwf6vjQ0N8aIgPDfGhIT4Dft+iGmiIDw3xoSE+NMSHhvjQEJ/6Det/PqQhPjTEh4b40BAfGuJDQ3xoCM8f5FR/3eIprAIAAAAASUVORK5CYII=");
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img[alt="cross"]{
+    mix-blend-mode:normal;
+}
+
+button[aria-expanded="false"] span.cross {
+    display: none !important;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* section-1 */
+.section-1{
+    background-image: url(../img/hero-section-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-1 .heading{
+    max-width: 588px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 76.8px;
+}
+
+.mini-btn{
+    right: 30px;
+    bottom: 10px;
+    gap: 10px;
+    font-size: 20px !important;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+/* section-2 */
+
+.section-2{
+    margin-top: 100px;
+}
+.section-2 .heading{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+}
+
+.section-2 {
+    ul{
+        padding-left:20px;
+    }
+}
+
+.see-more-btn{
+    background-color: transparent;
+    padding: 15px 50px;
+    border: 1px solid rgba(9, 8, 8, 1)
+}
+
+/* section-3 */
+.section-3{
+    margin-top: 80px;
+}
+
+.services{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+}
+
+.see-all-btn{
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+padding: 15px 40px;
+background-color: transparent;
+    border: 1px solid rgba(9, 8, 8, 1)
+}
+
+/* section-4 */
+
+.section-4{
+    margin-top: 80px;
+}
+
+.content-box{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*section-5  */
+
+.tangible{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+}
+
+@media (min-width:992px) {
+    .nav-logo{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media (max-width:992px) {
+    .nav-logo{
+        right: 0;
+    }
+    .mb-lg-24{
+        margin-bottom: 24px;
+    }
+    .section-2{
+        margin-top: 40px
+    }
+
+      .flex-col-reverse {
+          flex-direction: column-reverse;
+      }
+}
+
+@media (max-width:576px) {
+    .section-1 .heading{
+        font-size: 45px;
+            line-height: 50.8px;
+    }
+}
