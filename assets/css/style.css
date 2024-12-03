@@ -147,6 +147,9 @@ background-color: transparent;
     line-height: 57.6px;
 }
 
+.section-5 .card{
+    border-radius: 0%;
+}
 @media (min-width:992px) {
     .nav-logo{
         left: 50%;
@@ -163,9 +166,16 @@ background-color: transparent;
     .section-2{
         margin-top: 40px
     }
+    .mb-24{
+        margin-bottom: 24px;
+    }
 
       .flex-col-reverse {
           flex-direction: column-reverse;
+      }
+
+      .ms-600{
+        margin-left: 200px;
       }
 }
 
@@ -173,5 +183,8 @@ background-color: transparent;
     .section-1 .heading{
         font-size: 45px;
             line-height: 50.8px;
+    }
+    .ms-600 {
+        margin-left: 100px;
     }
 }
