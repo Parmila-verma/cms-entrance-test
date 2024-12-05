@@ -1,50 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-.Plus-Jakarta-Sans{
-font-family: "Plus Jakarta Sans";
+.Plus-Jakarta-Sans {
+    font-family: "Plus Jakarta Sans";
 }
 
-.pointer{
-    cursor: pointer;
-}
-.grey{
-    color: rgba(82,82,82);
+.pointer {
+    cursor: pointer !important;
 }
 
-.fs-14{
+.grey {
+    color: rgba(82, 82, 82);
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+
+.pe-72 {
+    padding-right: 72px;
+}
+
+.fs-14 {
     font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+
+.fw-500 {
+    font-weight: 500;
 }
 
 .fs-16 {
     font-size: 16px;
 }
 
-.ms-600{
+.ms-600 {
     margin-left: 600px;
 }
-.mt-100{
+
+.mt-100 {
     margin-top: 100px;
 }
-  nav li {
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+    margin-bottom: 140px;
+}
+
+.container-large {
+    max-width: 1440px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+nav li {
     display: inline-block;
 }
 
- nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
- nav li.nav-item>a {
-    font-size: 18px;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li.nav-item>a {
     font-weight: 500;
-    line-height: 26px;
-    color: rgba(255, 255, 255, 1);
+    line-height: 20.16px;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 .navbar {
-    --bs-navbar-padding-y: 1rem !important;
-    --bs-navbar-padding-x: 1rem !important;
+    --bs-navbar-padding-y: 23px !important;
+}
+
+.nav-link:hover {
+    color: rgba(219, 26, 0, 1) !important;
 }
 
 button[aria-expanded="false"] span.lines {
@@ -57,8 +109,9 @@ button[aria-expanded="false"] span.lines {
     background-size: 100%;
     background-color: black !important;
 }
-img[alt="cross"]{
-    mix-blend-mode:normal;
+
+img[alt="cross"] {
+    mix-blend-mode: normal;
 }
 
 button[aria-expanded="false"] span.cross {
@@ -71,14 +124,16 @@ button[aria-expanded="false"] span.cross {
 }
 
 /* section-1 */
-.section-1{
+.section-1 {
     background-image: url(../img/hero-section-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
 
-.section-1 .heading{
+.section-1 .heading {
     max-width: 588px;
     font-size: 64px;
     font-weight: 800;
@@ -87,149 +142,210 @@ button[aria-expanded="false"] span.cross {
     transform: translateY(-50%);
 }
 
-.mini-btn{
-    right: 80px;
-    bottom: 10px;
+.mini-btn {
+    right: 70px;
+    bottom: 20px;
     gap: 10px;
-    font-size: 20px !important;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
 
 /* section-2 */
 
-.section-2{
+.section-2 {
     margin-top: 100px;
 }
-.section-2 .heading{
+
+.section-2-about,
+.section-3-our,
+.section-4-our {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+    text-transform: uppercase;
+}
+
+.section-2 .heading {
     font-size: 48px;
     font-weight: 800;
     line-height: 57.6px;
 }
 
 .section-2 {
-    ul{
-        padding-left:20px;
+    ul {
+        padding-left: 20px;
     }
 }
 
-.see-more-btn{
+.see-more-btn {
     background-color: transparent;
-    padding: 15px 50px;
+    padding: 20px 66.5px;
     border: 1px solid rgba(9, 8, 8, 1);
     font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
 }
 
 .see-more-btn:hover,
-.see-all-btn:hover,.submit-btn:hover{
-    border-radius: 10px;
+.see-all-btn:hover,
+.submit-btn:hover {
     background-color: #000;
     color: #fff;
 }
 
 /* section-3 */
-.section-3{
-    margin-top: 80px;
-}
 
-.services{
+
+.services {
     font-size: 48px;
     font-weight: 800;
     line-height: 57.6px;
 }
 
-.see-all-btn{
-font-size: 16px;
-font-weight: 500;
-line-height: 20.16px;
-padding: 15px 40px;
-background-color: transparent;
-    border: 1px solid rgba(9, 8, 8, 1)
+.see-all-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    padding: 20px 43.5px;
+    background-color: transparent;
+    border: 1px solid rgba(9, 8, 8, 1);
 }
 
 /* section-4 */
 
-.section-4{
-    margin-top: 80px;
-}
 
-.hide{
+.hide {
     padding-right: 20px;
 }
 
-.bg-img{
+.bg-img {
+    border-bottom: 1px solid rgba(179, 179, 179);
+    border-top: 1px solid rgba(179, 179, 179);
+}
+
+.section-4-p {
+    color: rgba(58, 58, 58);
+}
+
+.section-4-h{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+}
+.bg-img:hover {
     background-image: url(../img/section-4img.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    .section-4-p {
+        color: white;
+    }
+
+    .hide {
+        background-color: white;
+    }
+
 }
 
-.content-box{
+.content-box {
     top: 50%;
     transform: translateY(-50%);
 }
 
 /*section-5  */
 
-.tangible{
+.tangible {
     font-size: 48px;
     font-weight: 800;
     line-height: 57.6px;
 }
 
-.section-5 .card{
+.section-5 .card {
     border-radius: 0%;
 }
 
+.card-svg:hover{
+    /* box-shadow: 0px 0px 10px black; */
+    border-radius: 50px;
+}
+
+.section-5 .card{
+padding: 18px;
+}
+
+.section5-h{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+}
+
+.section5-p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+}
+
+.section-5{
+    .card:hover{
+        box-shadow: 0px 0px 10px black;
+    }
+}
 /* section-6 */
-.input{
+.input {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 0px;
 }
 
-.form-message{
+.section6-subheading{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+}
+.form-message {
     resize: none !important;
 }
 
-.submit-btn{
-    padding: 10px 40px;
+.submit-btn {
+    padding: 20px 75px;
     border: 1px solid rgba(9, 8, 8, 1);
     background-color: transparent;
 }
 
-.section-6{
-    margin-bottom: 120px;
-}
 
 /* footer */
-.footer{
-    background-color: rgba(8,8,8);
+.footer {
+    background-color: rgba(8, 8, 8);
 }
 
-.icon-box{
+.icon-box {
     width: 40px;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3)
 }
-.footer{
+
+.footer {
+    padding-top: 50px;
+
     ul {
         padding: 0;
         margin: 0;
     }
-    li{
+
+    li {
         padding: 0;
         margin: 0;
         list-style: none;
-       padding-bottom: 10px;
+        padding-bottom: 10px;
     }
 
-    a{
+    a {
         text-decoration: none;
         color: #ffff;
     }
 }
 
-::placeholder{
+::placeholder {
     color: #000;
     font-size: 14px;
     font-weight: 400;
@@ -237,53 +353,63 @@ background-color: transparent;
 }
 
 @media (min-width:992px) {
-    .nav-logo{
+    .nav-logo {
         left: 50%;
-        top: 5px;
+        top: 6px;
         transform: translateX(-50%);
     }
+
+    nav li {
+        padding-left: 35px;
+    }
+
+
 }
+
 @media (max-width:992px) {
-    .nav-logo{
-        right: 0;
+    .nav-logo {
+        right: 15px;
+        top: 15px;
     }
-    .mb-lg-24{
-        margin-bottom: 24px;
-    }
-    .section-2{
-        margin-top: 40px
-    }
-    .mb-24{
+
+    .mb-lg-24 {
         margin-bottom: 24px;
     }
 
-      .flex-col-reverse {
-          flex-direction: column-reverse;
-      }
+    .mb-24 {
+        margin-bottom: 24px;
+    }
 
-      .ms-600{
+    .flex-col-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .ms-600 {
         margin-left: 200px;
-      }
+    }
 }
 
 @media (max-width:768px) {
+
     .services,
     .tangible {
-           font-size: 32px;
-           line-height: 40px;
+        font-size: 32px;
+        line-height: 40px;
     }
-     .submit-btn{
-        width: 100%;
-     }
 
-        .hide {
-            display: none;
-        }
+    .submit-btn {
+        width: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
 }
+
 @media (max-width:500px) {
+
     .see-all-btn,
-    .see-more-btn
-    {
+    .see-more-btn {
         width: 100%;
     }
 
@@ -291,15 +417,16 @@ background-color: transparent;
 
 
 @media (max-width:576px) {
-    .section-1 .heading{
+    .section-1 .heading {
         font-size: 45px;
-            line-height: 50.8px;
+        line-height: 50.8px;
     }
 
-    .section-2 .heading{
+    .section-2 .heading {
         font-size: 32px;
         line-height: 40px;
     }
+
     .ms-600 {
         margin-left: 100px;
     }
